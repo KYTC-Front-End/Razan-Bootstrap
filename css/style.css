@@ -1,0 +1,76 @@
+:root{
+    --bg-color:#212529;
+    --color:#fff;
+    --activeColor :#33d1cc;
+    --btnColor: #ff3150;
+    --dark-color:#19283f;
+    --yellowColor:#ffc107;
+    --gray-color:#eff7fa;
+    
+}
+.navbar{
+background-color: var(--bg-color);
+}
+
+.navbar .nav-item .nav-link{
+    color:var(--color) ;
+}
+
+.navbar .nav-item .nav-link:active,
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link:focus{
+    color: var(--activeColor);
+}
+
+.search{
+    color:var(--activeColor);
+    border-left: var(--activeColor) solid 1px;
+}
+
+.rounded-pill {
+background-color: var(--btnColor);
+color: var(--yellowColor) ;
+border: none;
+}
+
+.hero{
+    background-color: var(--dark-color);
+    min-height:calc(100vh - 72px);
+}
+
+
+.icon-holder .number {
+    color: var(--gray-color);
+    font-size: 8rem;
+}
+
+.feat{
+    text-align: center;
+    display: block;
+}
+.feat h2 {
+    color: var(--yellowColor);
+}
+.sub-icon{
+    color: var(--activeColor);
+    font-size: 4rem;
+    bottom: -2em;
+}
+
+.ourWork{
+    background-color: var(--gray-color);
+    line-height: 1.5rem;
+}
+/* .feature p:after{
+    content:'';
+    background-color: var(--activeColor);
+    display:inline-block;
+    width:120px; 
+    height: 2px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(64%);
+    
+  } */
+
